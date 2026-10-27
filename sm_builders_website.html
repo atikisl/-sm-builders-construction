@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S M BUILDERS & CONSTRUCTION | Premier Architectural & Construction Services</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            navy: '#0f172a',
+                            blue: '#1e3a8a',
+                            orange: '#f97316',
+                            red: '#ef4444',
+                            green: '#10b981',
+                            purple: '#8b5cf6',
+                            dark: '#090d16',
+                            light: '#f8fafc'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-text {
+            background: linear-gradient(135deg, #1e3a8a 0%, #ef4444 50%, #f97316 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-bg {
+            background: linear-gradient(rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.94)), url('https://images.unsplash.com/photo-1541888946425-d0fbb186a5b3?q=80&w=1920&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-slate-800 font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- TOP BAR -->
+    <div class="bg-slate-900 text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-3 sm:gap-4 text-[11px] sm:text-xs">
+                <a href="tel:01822661144" class="hover:text-brand-orange transition flex items-center gap-1">
+                    <i class="fa-solid fa-phone text-brand-orange"></i> 01822-661144
+                </a>
+                <a href="tel:01711646779" class="hover:text-brand-orange transition flex items-center gap-1">
+                    <i class="fa-solid fa-phone text-brand-orange"></i> 01711-646779
+                </a>
+                <a href="tel:01856975715" class="hover:text-brand-orange transition flex items-center gap-1">
+                    <i class="fa-solid fa-phone text-brand-orange"></i> 01856-975715
+                </a>
+                <a href="mailto:Smbuilders&construction@gmail.com" class="hover:text-brand-orange transition flex items-center gap-1">
+                    <i class="fa-solid fa-envelope text-brand-orange"></i> Smbuilders&construction@gmail.com
+                </a>
+            </div>
+            <div class="flex items-center gap-3 text-xs">
+                <span class="text-slate-400"><i class="fa-solid fa-location-dot text-brand-orange"></i> Chittagong, Bangladesh</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVIGATION HEADER -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- LOGO (Envelope Branding SVG) -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-12 h-12 bg-white rounded-lg p-1 flex items-center justify-center shadow-sm border border-slate-100">
+                        <svg viewBox="0 0 200 180" class="w-full h-full">
+                            <path d="M 20 140 C 50 140, 70 80, 100 80 C 130 80, 140 140, 180 140" fill="none" stroke="#10b981" stroke-width="14" stroke-linecap="round"/>
+                            <path d="M 30 110 L 80 30 L 130 110 L 175 40" fill="none" stroke="#1e3a8a" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M 75 120 L 120 45 L 165 120" fill="none" stroke="#ef4444" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+                            <polygon points="120,25 140,45 100,45" fill="#f97316"/>
+                        </svg>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="text-xl sm:text-2xl font-black tracking-tight text-slate-900 leading-none">
+                            <span class="text-blue-900">S M</span> <span class="text-red-600">BUILDERS</span>
+                        </span>
+                        <span class="text-[10px] sm:text-xs font-bold tracking-widest text-slate-600 uppercase mt-1">
+                            & Construction
+                        </span>
+                    </div>
+                </a>
+
+                <!-- DESKTOP NAV -->
+                <nav class="hidden md:flex items-center gap-7 font-semibold text-sm text-slate-700">
+                    <a href="#home" class="hover:text-brand-orange transition">Home</a>
+                    <a href="#about" class="hover:text-brand-orange transition">About Us</a>
+                    <a href="#leadership" class="hover:text-brand-orange transition">Executive Team</a>
+                    <a href="#services" class="hover:text-brand-orange transition">Services</a>
+                    <a href="#reviews" class="hover:text-brand-orange transition">Client Reviews</a>
+                    <a href="#offices" class="hover:text-brand-orange transition">Offices</a>
+                    <a href="#contact" class="hover:text-brand-orange transition">Contact</a>
+                </nav>
+
+                <!-- CTA BUTTON -->
+                <div class="hidden md:flex items-center">
+                    <a href="#contact" class="bg-brand-orange hover:bg-orange-600 text-white font-bold px-5 py-2.5 rounded-lg transition shadow-lg shadow-orange-500/30 text-sm flex items-center gap-2">
+                        <i class="fa-solid fa-paper-plane"></i> Get A Quote
+                    </a>
+                </div>
+
+                <!-- MOBILE MENU BUTTON -->
+                <button id="menu-btn" class="md:hidden text-slate-700 text-2xl focus:outline-none p-2" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- MOBILE MENU DROPDOWN -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3 font-semibold text-slate-700">
+            <a href="#home" class="block py-2 hover:text-brand-orange">Home</a>
+            <a href="#about" class="block py-2 hover:text-brand-orange">About Us</a>
+            <a href="#leadership" class="block py-2 hover:text-brand-orange">Executive Team</a>
+            <a href="#services" class="block py-2 hover:text-brand-orange">Services</a>
+            <a href="#reviews" class="block py-2 hover:text-brand-orange">Client Reviews</a>
+            <a href="#offices" class="block py-2 hover:text-brand-orange">Offices</a>
+            <a href="#contact" class="block py-2 hover:text-brand-orange">Contact</a>
+            <a href="#contact" class="block text-center bg-brand-orange text-white py-3 rounded-lg mt-4">Get A Quote</a>
+        </div>
+    </header>
+
+    <!-- HERO BANNER SECTION -->
+    <section id="home" class="hero-bg text-white py-20 lg:py-32 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium text-amber-400 border border-white/20 mb-6">
+                    <i class="fa-solid fa-certificate"></i> Premier Builders & Construction Firm in Chittagong
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight mb-6">
+                    Building Tomorrow with <span class="text-brand-orange">Integrity & Excellence</span>
+                </h1>
+                <p class="text-base sm:text-lg text-slate-300 mb-8 leading-relaxed">
+                    S M BUILDERS & CONSTRUCTION offers premier architectural planning, multi-story residential building, and strategic business engineering solutions across Chittagong.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#contact" class="bg-brand-orange hover:bg-orange-600 text-white text-center font-bold px-8 py-4 rounded-xl transition shadow-lg shadow-orange-500/30 text-base">
+                        Start Your Project <i class="fa-solid fa-arrow-right ml-2"></i>
+                    </a>
+                    <a href="#leadership" class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 text-center font-bold px-8 py-4 rounded-xl transition text-base">
+                        Meet Executive Team
+                    </a>
+                </div>
+            </div>
+
+            <!-- STATS COUNTER BAR -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16 pt-12 border-t border-slate-700/60">
+                <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-700/40">
+                    <p class="text-3xl sm:text-4xl font-black text-brand-orange">100+</p>
+                    <p class="text-xs sm:text-sm text-slate-400 font-medium mt-1">Projects Delivered</p>
+                </div>
+                <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-700/40">
+                    <p class="text-3xl sm:text-4xl font-black text-emerald-400">100%</p>
+                    <p class="text-xs sm:text-sm text-slate-400 font-medium mt-1">Structural Safety</p>
+                </div>
+                <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-700/40">
+                    <p class="text-3xl sm:text-4xl font-black text-sky-400">15+</p>
+                    <p class="text-xs sm:text-sm text-slate-400 font-medium mt-1">Years Experience</p>
+                </div>
+                <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-700/40">
+                    <p class="text-3xl sm:text-4xl font-black text-amber-400">3</p>
+                    <p class="text-xs sm:text-sm text-slate-400 font-medium mt-1">Prime Offices in Ctg</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800&auto=format&fit=crop" alt="Construction Site" class="rounded-2xl shadow-2xl object-cover w-full h-[450px]">
+                    <div class="absolute -bottom-6 -right-6 bg-slate-900 text-white p-6 rounded-2xl shadow-xl hidden sm:block max-w-xs border border-slate-700">
+                        <i class="fa-solid fa-quote-left text-brand-orange text-3xl mb-2"></i>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            "Committed to solid engineering, architectural innovation, and transparent client partnerships."
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <span class="text-brand-orange text-xs font-bold uppercase tracking-widest bg-orange-50 px-3 py-1 rounded-full border border-orange-200">About S M Builders & Construction</span>
+                    <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-4 mb-6 leading-tight">
+                        Transforming Land & Concepts into Icon Iconic Structures
+                    </h2>
+                    <p class="text-slate-600 mb-6 leading-relaxed">
+                        <strong>S M BUILDERS & CONSTRUCTION</strong> is an established construction and engineering brand operating across key locations in Chittagong. Managed by experienced leadership, we offer comprehensive building solutions for landowners and commercial clients.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-1">
+                                <i class="fa-solid fa-check text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">Residential & Commercial Mastery</h4>
+                                <p class="text-xs text-slate-500">Expertise in luxury apartments, commercial hubs, and structural planning.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center shrink-0 mt-1">
+                                <i class="fa-solid fa-check text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">Dedicated Executive & Marketing Leadership</h4>
+                                <p class="text-xs text-slate-500">Proactive team ensuring client satisfaction, clear communication, and seamless operations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXECUTIVE TEAM SECTION (3 MEMBERS) -->
+    <section id="leadership" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-brand-orange text-xs font-bold uppercase tracking-widest bg-white px-3 py-1 rounded-full shadow-sm border border-slate-200">Leadership & Management</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-4">Executive Team</h2>
+                <p class="text-slate-600 text-sm mt-3">The key leadership steering S M BUILDERS & CONSTRUCTION to excellence.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- MEMBER 1: OWNER / MD -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition border border-slate-200 flex flex-col items-center text-center group">
+                    <div class="relative mb-5">
+                        <div class="w-24 h-24 rounded-full bg-gradient-to-tr from-blue-900 via-blue-600 to-brand-orange p-1 shadow-md">
+                            <div class="w-full h-full rounded-full bg-slate-200 overflow-hidden flex items-center justify-center">
+                                <i class="fa-solid fa-user-tie text-4xl text-slate-600 mt-2"></i>
+                            </div>
+                        </div>
+                        <span class="absolute bottom-0 right-0 bg-brand-orange text-white text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border-2 border-white">
+                            Owner
+                        </span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900">সাইফুল ইসলাম সাইফ</h3>
+                    <p class="text-xs text-slate-500 font-medium mb-1">(Saiful Islam Saif)</p>
+                    <p class="text-brand-orange font-semibold text-xs uppercase tracking-wider mb-4">Managing Director / Owner</p>
+                    <p class="text-slate-600 text-xs leading-relaxed mb-6">
+                        Strategic direction, corporate expansion, structural vision, and overall leadership for S M Builders & Construction.
+                    </p>
+                    <div class="w-full pt-4 border-t border-slate-100 space-y-2">
+                        <a href="tel:01822661144" class="w-full text-xs bg-slate-50 hover:bg-slate-100 text-slate-700 py-2 rounded-lg font-medium transition flex items-center justify-center gap-2 border border-slate-200">
+                            <i class="fa-solid fa-phone text-brand-orange"></i> 01822-661144
+                        </a>
+                        <a href="tel:01711646779" class="w-full text-xs bg-slate-50 hover:bg-slate-100 text-slate-700 py-2 rounded-lg font-medium transition flex items-center justify-center gap-2 border border-slate-200">
+                            <i class="fa-solid fa-phone text-brand-orange"></i> 01711-646779
+                        </a>
+                    </div>
+                </div>
+
+                <!-- MEMBER 2: MANAGER / ASSISTANT DIRECTOR -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition border border-slate-200 flex flex-col items-center text-center group">
+                    <div class="relative mb-5">
+                        <div class="w-24 h-24 rounded-full bg-gradient-to-tr from-slate-700 via-slate-500 to-emerald-500 p-1 shadow-md">
+                            <div class="w-full h-full rounded-full bg-slate-200 overflow-hidden flex items-center justify-center">
+                                <i class="fa-solid fa-user-gear text-4xl text-slate-600 mt-2"></i>
+                            </div>
+                        </div>
+                        <span class="absolute bottom-0 right-0 bg-emerald-600 text-white text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border-2 border-white">
+                            Manager
+                        </span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900">শহিদুল ইসলাম শহীদ</h3>
+                    <p class="text-xs text-slate-500 font-medium mb-1">(Shahidul Islam Shahid)</p>
+                    <p class="text-emerald-600 font-semibold text-xs uppercase tracking-wider mb-4">Assistant Director / Manager</p>
+                    <p class="text-slate-600 text-xs leading-relaxed mb-6">
+                        Operational manager supervising construction sites, client relations, and project execution quality control.
+                    </p>
+                    <div class="w-full pt-4 border-t border-slate-100 space-y-2">
+                        <a href="tel:01711646779" class="w-full text-xs bg-slate-50 hover:bg-slate-100 text-slate-700 py-2 rounded-lg font-medium transition flex items-center justify-center gap-2 border border-slate-200">
+                            <i class="fa-solid fa-phone text-emerald-600"></i> 01711-646779
+                        </a>
+                        <a href="tel:01822661144" class="w-full text-xs bg-slate-50 hover:bg-slate-100 text-slate-700 py-2 rounded-lg font-medium transition flex items-center justify-center gap-2 border border-slate-200">
+                            <i class="fa-solid fa-phone text-emerald-600"></i> 01822-661144
+                        </a>
+                    </div>
+                </div>
+
+                <!-- MEMBER 3: MARKETING & BUSINESS DEVELOPMENT EXECUTIVE -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition border border-brand-orange/30 flex flex-col items-center text-center group relative overflow-hidden">
+                    <div class="absolute top-3 right-3 bg-purple-100 text-purple-700 text-[9px] font-extrabold uppercase px-2 py-0.5 rounded-full border border-purple-200">
+                        Executive
+                    </div>
+                    <div class="relative mb-5">
+                        <div class="w-24 h-24 rounded-full bg-gradient-to-tr from-purple-600 via-pink-500 to-amber-500 p-1 shadow-md">
+                            <div class="w-full h-full rounded-full bg-slate-200 overflow-hidden flex items-center justify-center">
+                                <i class="fa-solid fa-user-astronaut text-4xl text-slate-600 mt-2"></i>
+                            </div>
+                        </div>
+                        <span class="absolute bottom-0 right-0 bg-purple-600 text-white text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border-2 border-white">
+                            Marketing
+                        </span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900">Marketing Executive</h3>
+                    <p class="text-xs text-slate-500 font-medium mb-1">Business Development</p>
+                    <p class="text-purple-600 font-semibold text-xs uppercase tracking-wider mb-2">Marketing & Business Executive</p>
+                    
+                    <p class="text-slate-500 text-[11px] mb-4 flex items-center gap-1 justify-center">
+                        <i class="fa-solid fa-location-dot text-brand-orange"></i> Hamjerbag Colony Rail Line
+                    </p>
+
+                    <p class="text-slate-600 text-xs leading-relaxed mb-6">
+                        Driving client acquisition, strategic branding, business expansion, and customer relationship management.
+                    </p>
+                    <div class="w-full pt-4 border-t border-slate-100 space-y-2">
+                        <a href="tel:01856975715" class="w-full text-xs bg-slate-50 hover:bg-slate-100 text-slate-700 py-2 rounded-lg font-medium transition flex items-center justify-center gap-2 border border-slate-200">
+                            <i class="fa-solid fa-phone text-purple-600"></i> 01856-975715
+                        </a>
+                        <a href="tel:01787840768" class="w-full text-xs bg-slate-50 hover:bg-slate-100 text-slate-700 py-2 rounded-lg font-medium transition flex items-center justify-center gap-2 border border-slate-200">
+                            <i class="fa-solid fa-phone text-purple-600"></i> 01787-840768
+                        </a>
+                        <a href="mailto:islamatik398@gmail.com" class="w-full text-[11px] bg-purple-50 hover:bg-purple-100 text-purple-800 py-2 rounded-lg font-medium transition flex items-center justify-center gap-2 border border-purple-200 truncate px-2">
+                            <i class="fa-solid fa-envelope text-purple-600"></i> islamatik398@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-brand-orange text-xs font-bold uppercase tracking-widest bg-orange-50 px-3 py-1 rounded-full border border-orange-200">What We Offer</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-4">Our Core Engineering Services</h2>
+                <p class="text-slate-600 text-sm mt-3">Comprehensive structural development and architectural solutions.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:border-brand-orange transition group hover:shadow-lg">
+                    <div class="w-14 h-14 bg-orange-500/10 text-brand-orange rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-orange group-hover:text-white transition">
+                        <i class="fa-solid fa-building-user"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Architectural & Structural Planning</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Modern, earthquake-resistant architectural layout and structural engineering planning approved by Chittagong development authorities.</p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:border-brand-orange transition group hover:shadow-lg">
+                    <div class="w-14 h-14 bg-blue-500/10 text-blue-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-city"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Residential & Commercial Complex</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">End-to-end building construction for high-rise residential towers, shopping plazas, and commercial property.</p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:border-brand-orange transition group hover:shadow-lg">
+                    <div class="w-14 h-14 bg-purple-500/10 text-purple-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-purple-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-handshake"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Land Development & Joint Ventures</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Joint-venture landowner partnerships, legal consultation, structural retrofitting, and project management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENT REVIEWS & INTERACTIVE SUBMISSION FORM -->
+    <section id="reviews" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-amber-400 text-xs font-bold uppercase tracking-widest bg-white/10 px-3 py-1 rounded-full border border-white/20">Client Feedback & Reviews</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-white mt-4">What Our Clients Say</h2>
+                <p class="text-slate-400 text-sm mt-3">Read genuine reviews from landowners, clients, and partners.</p>
+            </div>
+
+            <!-- EXISTING REVIEWS -->
+            <div id="reviews-container" class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+                <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700">
+                    <div class="flex items-center gap-1 text-amber-400 mb-4 text-sm">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                        "S M Builders handed over our residential building on time. Saif Shaheb and Shahid Shaheb maintained excellent material quality throughout."
+                    </p>
+                    <div class="flex items-center gap-3 border-t border-slate-700/60 pt-4">
+                        <div class="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center font-bold text-white text-sm">
+                            MH
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Engr. Md. Hossain</h4>
+                            <p class="text-xs text-slate-400">GEC Circle, Ctg</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700">
+                    <div class="flex items-center gap-1 text-amber-400 mb-4 text-sm">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                        "Great executive support! The marketing executive team guided us through every step near C&B More. Highly recommended construction company."
+                    </p>
+                    <div class="flex items-center gap-3 border-t border-slate-700/60 pt-4">
+                        <div class="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center font-bold text-white text-sm">
+                            AR
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Abdur Rahman</h4>
+                            <p class="text-xs text-slate-400">Ruby Gate, Ctg</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700">
+                    <div class="flex items-center gap-1 text-amber-400 mb-4 text-sm">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                        "Very transparent team. Their office at Central Plaza is welcoming and their structural plans are top class."
+                    </p>
+                    <div class="flex items-center gap-3 border-t border-slate-700/60 pt-4">
+                        <div class="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center font-bold text-white text-sm">
+                            KA
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Kazi Alimuddin</h4>
+                            <p class="text-xs text-slate-400">Commercial Client</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- REVIEW FORM -->
+            <div class="max-w-2xl mx-auto bg-slate-800 p-8 rounded-2xl border border-slate-700 shadow-xl">
+                <h3 class="text-2xl font-bold text-white mb-2 text-center">Submit Client Feedback / Review</h3>
+                <p class="text-slate-400 text-xs text-center mb-6">Are you working with SM Builders? Share your experience below.</p>
+                
+                <form id="review-form" class="space-y-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-medium text-slate-300 mb-1">Your Full Name *</label>
+                            <input type="text" id="rev-name" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brand-orange" placeholder="Full Name">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-slate-300 mb-1">Location / Project</label>
+                            <input type="text" id="rev-loc" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brand-orange" placeholder="e.g. GEC / Hamjerbag">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-medium text-slate-300 mb-1">Rating</label>
+                        <select id="rev-rating" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-amber-400 focus:outline-none focus:border-brand-orange">
+                            <option value="5">⭐⭐⭐⭐⭐ (5/5 Stars - Excellent)</option>
+                            <option value="4">⭐⭐⭐⭐ (4/5 Stars - Good)</option>
+                            <option value="3">⭐⭐⭐ (3/5 Stars - Average)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-medium text-slate-300 mb-1">Your Review *</label>
+                        <textarea id="rev-msg" required rows="3" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brand-orange" placeholder="Write your review here..."></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-brand-orange hover:bg-orange-600 text-white font-bold py-3 rounded-lg transition text-sm">
+                        Post Review
+                    </button>
+                </form>
+                <div id="review-success" class="hidden mt-4 p-3 bg-emerald-500/20 border border-emerald-500 text-emerald-300 rounded-lg text-xs text-center">
+                    Thank you! Your review has been published.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ALL THREE OFFICE LOCATIONS -->
+    <section id="offices" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-brand-orange text-xs font-bold uppercase tracking-widest bg-orange-50 px-3 py-1 rounded-full border border-orange-200">Our Network</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-4">3 Prime Office Locations in Chittagong</h2>
+                <p class="text-slate-600 text-sm mt-3">Visit any of our offices for direct consultation and project planning.</p>
+            </div>
+
+            <!-- 3 OFFICE CARDS -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <!-- UNIT 1 CARD -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition">
+                    <div class="inline-block bg-blue-900 text-white text-[10px] font-bold px-2.5 py-1 rounded-md uppercase mb-3">
+                        Unit - 1 (Head Office)
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-building text-brand-orange"></i> Central Plaza
+                    </h3>
+                    <p class="text-slate-600 text-xs mb-4 leading-relaxed">
+                        Central Plaza [5th Floor], Office No: 413, Gec Circle, Ctg.
+                    </p>
+                    <div class="space-y-1.5 text-[11px] text-slate-600 border-t border-slate-200 pt-3">
+                        <p><i class="fa-solid fa-map-marker-alt text-brand-orange w-4"></i> GEC Circle, Chittagong</p>
+                        <p><i class="fa-solid fa-door-open text-brand-orange w-4"></i> Office No: 413 (5th Floor)</p>
+                    </div>
+                </div>
+
+                <!-- UNIT 2 CARD -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition">
+                    <div class="inline-block bg-red-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-md uppercase mb-3">
+                        Unit - 2 (Branch Office)
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-location-dot text-red-600"></i> Abu Taher Chowdhury Bhabon
+                    </h3>
+                    <p class="text-slate-600 text-xs mb-4 leading-relaxed">
+                        Abu Taher Chowdhury Bhabon [Ground Floor], Ruby Gate, C&b More, Ctg.
+                    </p>
+                    <div class="space-y-1.5 text-[11px] text-slate-600 border-t border-slate-200 pt-3">
+                        <p><i class="fa-solid fa-map-marker-alt text-red-600 w-4"></i> Ruby Gate, C&B More, Ctg</p>
+                        <p><i class="fa-solid fa-door-open text-red-600 w-4"></i> Ground Floor</p>
+                    </div>
+                </div>
+
+                <!-- NEW EXECUTIVE OFFICE (HAMJERBAG) -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-purple-200 shadow-sm hover:shadow-md transition">
+                    <div class="inline-block bg-purple-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-md uppercase mb-3">
+                        Branch & Business Office
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-train text-purple-600"></i> Hamjerbag Station Office
+                    </h3>
+                    <p class="text-slate-600 text-xs mb-4 leading-relaxed">
+                        Hamjerbag Colony Rail line, opposite Vista computer, Chittagong.
+                    </p>
+                    <div class="space-y-1.5 text-[11px] text-slate-600 border-t border-slate-200 pt-3">
+                        <p><i class="fa-solid fa-map-marker-alt text-purple-600 w-4"></i> Hamjerbag Colony Rail Line</p>
+                        <p><i class="fa-solid fa-desktop text-purple-600 w-4"></i> Opposite Vista Computer</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DIRECT INQUIRY & CONTACT DETAIL -->
+            <div id="contact" class="grid grid-cols-1 lg:grid-cols-3 gap-8 bg-slate-900 text-white p-8 sm:p-12 rounded-3xl shadow-2xl">
+                <!-- CONTACT INFORMATION -->
+                <div class="lg:col-span-1 space-y-6">
+                    <h3 class="text-2xl font-bold text-white">Direct Contacts</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        Call or email our management team directly for fast inquiries and site visits.
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <div class="w-10 h-10 rounded-lg bg-slate-800 flex items-center justify-center text-brand-orange text-lg shrink-0 mt-1">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="space-y-1">
+                                <p class="text-[10px] uppercase text-slate-400 font-bold">Contact Numbers</p>
+                                <a href="tel:01822661144" class="block text-xs font-bold text-white hover:text-brand-orange">01822-661144 (Director)</a>
+                                <a href="tel:01711646779" class="block text-xs font-bold text-white hover:text-brand-orange">01711-646779 (Manager)</a>
+                                <a href="tel:01856975715" class="block text-xs font-bold text-white hover:text-brand-orange">01856-975715 (Marketing)</a>
+                                <a href="tel:01787840768" class="block text-xs font-bold text-white hover:text-brand-orange">01787-840768 (Marketing)</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3">
+                            <div class="w-10 h-10 rounded-lg bg-slate-800 flex items-center justify-center text-brand-orange text-lg shrink-0 mt-1">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="space-y-1">
+                                <p class="text-[10px] uppercase text-slate-400 font-bold">Email Addresses</p>
+                                <a href="mailto:Smbuilders&construction@gmail.com" class="block text-xs font-semibold text-white hover:text-brand-orange break-all">
+                                    Smbuilders&construction@gmail.com
+                                </a>
+                                <a href="mailto:islamatik398@gmail.com" class="block text-xs font-semibold text-purple-300 hover:text-white break-all">
+                                    islamatik398@gmail.com
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- INTERACTIVE INQUIRY FORM -->
+                <div class="lg:col-span-2 bg-slate-800 p-6 sm:p-8 rounded-2xl border border-slate-700">
+                    <h4 class="text-xl font-bold text-white mb-4">Send Us a Direct Message</h4>
+                    <form id="contact-form" class="space-y-4">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs text-slate-300 mb-1">Your Name *</label>
+                                <input type="text" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brand-orange" placeholder="Full Name">
+                            </div>
+                            <div>
+                                <label class="block text-xs text-slate-300 mb-1">Phone Number *</label>
+                                <input type="tel" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brand-orange" placeholder="018XXXXXXXX">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs text-slate-300 mb-1">Preferred Office / Service</label>
+                            <select class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brand-orange">
+                                <option>Central Plaza Office (GEC Circle)</option>
+                                <option>Abu Taher Chowdhury Bhabon (C&B More)</option>
+                                <option>Hamjerbag Office (Opposite Vista Computer)</option>
+                                <option>Land Development Partnership</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs text-slate-300 mb-1">Message / Requirements *</label>
+                            <textarea required rows="3" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brand-orange" placeholder="Describe your plan or inquiry..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-brand-orange hover:bg-orange-600 text-white font-bold py-3 rounded-lg transition text-sm">
+                            Submit Inquiry <i class="fa-solid fa-paper-plane ml-2"></i>
+                        </button>
+                    </form>
+                    <div id="contact-success" class="hidden mt-4 p-3 bg-emerald-500/20 border border-emerald-500 text-emerald-300 rounded-lg text-xs text-center">
+                        Message received! Our team will contact you shortly.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
+                <div>
+                    <span class="text-xl font-black text-white">S M BUILDERS & CONSTRUCTION</span>
+                    <p class="text-xs text-slate-500 mt-1">Building Excellence in Chittagong, Bangladesh.</p>
+                </div>
+                <div class="text-xs text-slate-400 space-y-1">
+                    <p><strong class="text-slate-200">Owner:</strong> সাইফুল ইসলাম সাইফ</p>
+                    <p><strong class="text-slate-200">Manager:</strong> শহিদুল ইসলাম শহীদ</p>
+                    <p><strong class="text-slate-200">Marketing & Biz Dev:</strong> Executive Team</p>
+                </div>
+                <div class="text-xs text-slate-500">
+                    &copy; 2026 S M BUILDERS & CONSTRUCTION. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE JAVASCRIPT LOGIC -->
+    <script>
+        // Mobile Navigation Toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Interactive Client Review Submission
+        const reviewForm = document.getElementById('review-form');
+        const reviewContainer = document.getElementById('reviews-container');
+        const reviewSuccess = document.getElementById('review-success');
+
+        reviewForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const name = document.getElementById('rev-name').value;
+            const location = document.getElementById('rev-loc').value || 'Chittagong';
+            const ratingVal = document.getElementById('rev-rating').value;
+            const message = document.getElementById('rev-msg').value;
+
+            let starsHtml = '';
+            for (let i = 0; i < ratingVal; i++) {
+                starsHtml += '<i class="fa-solid fa-star"></i>';
+            }
+
+            const initials = name.split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 2);
+
+            const newCard = document.createElement('div');
+            newCard.className = 'bg-slate-800/80 p-6 rounded-2xl border border-brand-orange/40 transition animate-fade-in';
+            newCard.innerHTML = `
+                <div class="flex items-center gap-1 text-amber-400 mb-4 text-sm">
+                    ${starsHtml}
+                </div>
+                <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                    "${message}"
+                </p>
+                <div class="flex items-center gap-3 border-t border-slate-700/60 pt-4">
+                    <div class="w-10 h-10 rounded-full bg-brand-orange flex items-center justify-center font-bold text-white text-sm">
+                        ${initials}
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-white text-sm">${name}</h4>
+                        <p class="text-xs text-slate-400">${location}</p>
+                    </div>
+                </div>
+            `;
+
+            reviewContainer.prepend(newCard);
+            reviewForm.reset();
+            reviewSuccess.classList.remove('hidden');
+            setTimeout(() => {
+                reviewSuccess.classList.add('hidden');
+            }, 4000);
+        });
+
+        // Contact Form Handler
+        const contactForm = document.getElementById('contact-form');
+        const contactSuccess = document.getElementById('contact-success');
+
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            contactForm.reset();
+            contactSuccess.classList.remove('hidden');
+            setTimeout(() => {
+                contactSuccess.classList.add('hidden');
+            }, 4000);
+        });
+    </script>
+</body>
+</html>
