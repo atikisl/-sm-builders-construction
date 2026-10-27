@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S M BUILDERS & CONSTRUCTION</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Hind Siliguri', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Top Contact Bar -->
+    <div class="bg-slate-900 text-slate-200 text-sm py-2 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+            <div class="flex flex-wrap items-center gap-4 text-xs md:text-sm">
+                <span><i class="fa-solid fa-phone text-amber-500 mr-1"></i> <a href="tel:01822661144">01822-661144</a>, <a href="tel:01711646779">01711-646779</a></span>
+                <span><i class="fa-solid fa-envelope text-amber-500 mr-1"></i> Smbuilders&construction@gmail.com</span>
+            </div>
+            <div class="flex items-center gap-3">
+                <a href="https://wa.me/8801856975715" target="_blank" class="text-emerald-400 hover:text-emerald-300 transition"><i class="fa-brands fa-whatsapp text-lg"></i> হোয়াটসঅ্যাপ চ্যাট</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 bg-gradient-to-tr from-blue-900 via-emerald-600 to-amber-500 rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-md">
+                    Sm
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-black text-slate-900 leading-tight">S M BUILDERS & CONSTRUCTION</h1>
+                    <p class="text-xs text-slate-500 font-semibold tracking-wider">BUILDERS & CONSTRUCTION</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex gap-6 font-medium text-slate-700">
+                <a href="#home" class="hover:text-amber-600 transition">হোম</a>
+                <a href="#about" class="hover:text-amber-600 transition">আমাদের কথা</a>
+                <a href="#team" class="hover:text-amber-600 transition">পরিচালনা পর্ষদ</a>
+                <a href="#offices" class="hover:text-amber-600 transition">অফিস ঠিকানা</a>
+                <a href="#contact" class="hover:text-amber-600 transition">যোগাযোগ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-slate-900 text-white py-20 px-4 overflow-hidden">
+        <div class="absolute inset-0 opacity-20 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=1200&q=80');"></div>
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <span class="bg-amber-500 text-slate-900 font-bold px-3 py-1 rounded-full text-xs uppercase tracking-widest inline-block mb-4">বিশ্বস্ত নির্মাণ প্রতিষ্ঠান</span>
+            <h2 class="text-3xl md:text-5xl font-extrabold mb-6 leading-tight">আপনার স্বপ্নের আবাসন ও টেকসই কনস্ট্রাকশন সমাধান</h2>
+            <p class="text-slate-300 text-base md:text-lg mb-8 max-w-2xl mx-auto">
+                উন্নত স্থাপত্যশৈলী, মানসম্মত কাঁচামাল এবং দক্ষ ইঞ্জিনিয়ারিং টিমের মাধ্যমে আমরা নিশ্চিত করি আপনার নিরাপদ ও নান্দনিক আবাসন।
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#contact" class="bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold px-6 py-3 rounded-lg shadow-lg transition">প্রজেক্ট ইনকোয়ারি</a>
+                <a href="https://wa.me/8801856975715" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-3 rounded-lg shadow-lg transition flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp"></i> সরাসরি হোয়াটসঅ্যাপ করুন
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section / Bio -->
+    <section id="about" class="py-16 px-4 bg-white">
+        <div class="max-w-5xl mx-auto text-center">
+            <h3 class="text-2xl md:text-3xl font-bold text-slate-900 mb-4">আমাদের সম্পর্কে (About Us)</h3>
+            <div class="w-16 h-1 bg-amber-500 mx-auto mb-6"></div>
+            <p class="text-slate-600 text-lg leading-relaxed max-w-3xl mx-auto">
+                এস এম বিল্ডার্স অ্যান্ড কনস্ট্রাকশন চট্টগ্রামের একটি নির্ভরযোগ্য ও শীর্ষস্থানীয় রিয়েল এস্টেট এবং সিভিল কনস্ট্রাকশন প্রতিষ্ঠান। গত ১০ বছরেরও বেশি সময় ধরে আমরা সর্বোচ্চ গুণগত মান বজায় রেখে আধুনিক আবাসন, বাণিজ্যিক ভবন এবং স্ট্রাকচারাল নির্মাণসেবা প্রদান করে আসছি। আমাদের দক্ষ প্রকৌশলী ও অভিজ্ঞ টিম আপনার স্বপ্নের স্থানকে বাস্তব রূপ দিতে সর্বদা প্রতিশ্রুতিবদ্ধ।
+            </p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-16 px-4 bg-slate-100">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <h3 class="text-2xl md:text-3xl font-bold text-slate-900">পরিচালনা পর্ষদ ও কর্মকর্তা</h3>
+                <div class="w-16 h-1 bg-amber-500 mx-auto mt-3"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- MD Profile -->
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center border border-slate-200 hover:shadow-xl transition">
+                    <div class="w-32 h-32 mx-auto bg-slate-200 rounded-full flex items-center justify-center mb-4 text-slate-400 text-4xl border-4 border-amber-500 overflow-hidden">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900">সাইফুল ইসলাম সাইফ</h4>
+                    <p class="text-amber-600 font-medium text-sm mb-3">মালিক / Managing Director</p>
+                    <p class="text-slate-500 text-xs">প্রতিষ্ঠানের সার্বিক নেতৃত্ব ও দূরদর্শী পরিকল্পনার মাধ্যমে উন্নত আবাসন নিশ্চিতকরণে নিবেদিত।</p>
+                </div>
+
+                <!-- Manager Profile -->
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center border border-slate-200 hover:shadow-xl transition">
+                    <div class="w-32 h-32 mx-auto rounded-full mb-4 border-4 border-emerald-500 overflow-hidden shadow">
+                        <img src="https://lh3.googleusercontent.com/pw/AP1GczNzB5QfF0g7" alt="শহিদুল ইসলাম শহীদ" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900">শহিদুল ইসলাম শহীদ</h4>
+                    <p class="text-emerald-600 font-medium text-sm mb-3">ম্যানেজার / Assistant Director</p>
+                    <p class="text-slate-500 text-xs">কনস্ট্রাকশন প্রজেক্ট ও দৈনন্দিন পরিচালনা তত্ত্বাবধানের দায়িত্বে নিয়োজিত।</p>
+                </div>
+
+                <!-- Executive Profile -->
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center border border-slate-200 hover:shadow-xl transition">
+                    <div class="w-32 h-32 mx-auto rounded-full mb-4 border-4 border-blue-500 overflow-hidden shadow">
+                        <img src="https://lh3.googleusercontent.com/pw/AP1GczP2rY7R8Q90" alt="আতিকুর রাহিম" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-900">আতিকুর রাহিম</h4>
+                    <p class="text-blue-600 font-medium text-sm mb-2">Marketing & Business Development Executive</p>
+                    <p class="text-slate-500 text-xs mb-3">কৌশলগত মার্কেটিং, ক্লায়েন্ট রিলেশনশিপ এবং বিজনেস গ্রোথ পরিচালনায় অভিজ্ঞ।</p>
+                    <div class="text-xs text-slate-600 space-y-1">
+                        <p><i class="fa-solid fa-phone text-blue-500"></i> 01856975715 / 01787840768</p>
+                        <p><i class="fa-solid fa-envelope text-blue-500"></i> islamatik398@gmail.com</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Locations -->
+    <section id="offices" class="py-16 px-4 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <h3 class="text-2xl md:text-3xl font-bold text-slate-900">আমাদের অফিসসমূহ</h3>
+                <div class="w-16 h-1 bg-amber-500 mx-auto mt-3"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <div class="p-6 bg-slate-50 rounded-lg border border-slate-200">
+                    <div class="text-amber-500 text-2xl mb-3"><i class="fa-solid fa-location-dot"></i></div>
+                    <h4 class="font-bold text-lg mb-2">Unit-1 (প্রধান কার্যালয়)</h4>
+                    <p class="text-slate-600 text-sm">Central Plaza [5th Floor] Office No: 413, GEC Circle, Ctg.</p>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-lg border border-slate-200">
+                    <div class="text-amber-500 text-2xl mb-3"><i class="fa-solid fa-building"></i></div>
+                    <h4 class="font-bold text-lg mb-2">Unit-2 (শাখা কার্যালয়)</h4>
+                    <p class="text-slate-600 text-sm">Abu Taher Chowdhury Bhabon [Ground Floor] Ruby Gate, C&B More, Ctg.</p>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-lg border border-slate-200">
+                    <div class="text-amber-500 text-2xl mb-3"><i class="fa-solid fa-store"></i></div>
+                    <h4 class="font-bold text-lg mb-2">Unit-3 (শাখা কার্যালয়)</h4>
+                    <p class="text-slate-600 text-sm">Hamjerbag Colony Rail Line (Opposite Vista Computer), Ctg.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-sm border-t border-slate-800">
+        <p>&copy; 2026 S M BUILDERS & CONSTRUCTION. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>index.html
